@@ -12,9 +12,9 @@ f=e/d
 print("divicible=",f)
 _______________________________________________________________________________________________________________________________________________________________________
 print("Enter the subject")
-subject=input()
+subject=input("subject:")
 print("Enter the mark")
-marks=int(input())
+marks=int(input("Mark:"))
 if(marks>=35):
     print("You are pass")
 else:
