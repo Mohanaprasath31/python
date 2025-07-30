@@ -64,4 +64,11 @@ OP
 Enter the radius:5
 Area of circumference 31.400000000000002
 ----------------------------------------------------------------------------
-
+EX 1(6)
+r=float(input("Enter the radius:"))
+area=3.14*r**2
+print("Area of circle",area)
+OUTPUT
+Enter the radius:5
+Area of circle 78.5
+-----------------------------------------------------------------------------
