@@ -56,5 +56,12 @@ Enter the BASE:10
 Enter the HEIGHT:8
 Area of triangle 40.0
 --------------------------------------------------------------------------------
-
+EX 1(5)
+r=float(input("Enter the radius:"))
+area=2*3.14*r
+print("Area of circumference",area)
+OP
+Enter the radius:5
+Area of circumference 31.400000000000002
+----------------------------------------------------------------------------
 
