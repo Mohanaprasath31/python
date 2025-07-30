@@ -44,6 +44,17 @@ Enter the first input:10
 Enter the Second input:5
 max= 10
 min= 5
+---------------------------------------------------------------------------------
+EX 1(4)
+b=float(input("Enter the BASE:"))
+h=float(input("Enter the HEIGHT:"))
+area=0.5*b*h
+print("Area of triangle",area)
+OUTPUT
+Enter the BASE:10
+Enter the HEIGHT:8
+Area of triangle 40.0
+--------------------------------------------------------------------------------
 power= 100000
 --------------------------------------------------------------------------
 
