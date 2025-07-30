@@ -133,10 +133,10 @@ total=m1+m2+m3+m4+m5+m6+m7+m8
 avg=total/8
 max=max(m1,m2,m3,m4,m5,m6,m7,m8)
 min=min(m1,m2,m3,m4,m5,m6,m7,m8)
-print("Total weight",total)
-print("Avg weight",avg)
-print("max weight",max)
-print("max weight",min)
+print("Total weight=",total,"KG")
+print("Avg weight=",avg,"KG")
+print("max weight=",max,"KG")
+print("mIN weight=",min,"KG")
 OUTPUT
 Enter the 8 weights
 enter the weight 1=75
