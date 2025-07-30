@@ -30,4 +30,20 @@ floor_division= 10
 REMAINDER= 45
 QUOTIENT= 10.0
 ----------------------------------------------------------------------------
+EX 1(3)
+a=int(input("Enter the first input:"))
+b=int(input("Enter the Second input:"))
+max=max(a,b)
+min=min(a,b)
+power=a**b
+print("max=",max)
+print("min=",min)
+print("power=",power)
+OUTPUT
+Enter the first input:10
+Enter the Second input:5
+max= 10
+min= 5
+power= 100000
+--------------------------------------------------------------------------
 
