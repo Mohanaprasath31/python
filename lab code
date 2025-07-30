@@ -93,3 +93,28 @@ OUTPUT
 Enter the A value:7
 circumference 49.0
 ------------------------------------------------------------------------------
+EX 1(9)
+import math
+print("Enter the mark of 5 subjects")
+m1=int(input("enter the mark 1="))
+m2=int(input("enter the mark 2="))
+m3=int(input("enter the mark 3="))
+m4=int(input("enter the mark 4="))
+m5=int(input("enter the mark 5="))
+total=m1+m2+m3+m4+m5
+avg=total/5
+percent=(total/500)*100
+print("Total mark of 5 subjects",total)
+print("Avg mark of 5 subjects",avg)
+print("Total  percent of 5 subjects",percent)
+OUTPUT
+Enter the mark of 5 subjects
+enter the mark 1=76
+enter the mark 2=86
+enter the mark 3=68
+enter the mark 4=86
+enter the mark 5=79
+Total mark of 5 subjects 395
+Avg mark of 5 subjects 79.0
+Total  percent of 5 subjects 79.0
+--------------------------------------------------------------------------
