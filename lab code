@@ -72,3 +72,15 @@ OUTPUT
 Enter the radius:5
 Area of circle 78.5
 -----------------------------------------------------------------------------
+EX 1(7)
+a=float(input("Enter the A value:"))
+b=float(input("Enter the B value:"))
+c=float(input("Enter the C value:"))
+area=a+b+c
+print("circumference",area)
+OUTPUT
+Enter the A value:5
+Enter the B value:6
+Enter the C value:7
+circumference 18.0
+------------------------------------------------------------------------------
