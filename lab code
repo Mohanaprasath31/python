@@ -1,0 +1,33 @@
+Ex 1(1)
+a=int(input("Enter the first input:"))
+b=int(input("Enter the Second input:"))
+sum_ab=a+b
+difference=a-b
+product_ab=a*b
+print("sum=",sum_ab)
+print("difference=",difference)
+print("product=",product_ab)
+OUTPUT
+Enter the first input:10
+Enter the Second input:5
+sum= 15
+difference= 5
+product= 50
+---------------------------------------------------------------------------
+EX 1(2)
+a=int(input("Enter the first input:"))
+b=int(input("Enter the Second input:"))
+quotient=a/b
+remainder=a%b
+floor_division=a//b
+print("floor_division=",floor_division)
+print("REMAINDER=",remainder)
+print("QUOTIENT=",quotient)
+OUTPUT
+Enter the first input:50
+Enter the Second input:5
+floor_division= 10
+REMAINDER= 45
+QUOTIENT= 10.0
+----------------------------------------------------------------------------
+
