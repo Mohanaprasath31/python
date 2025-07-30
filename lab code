@@ -118,3 +118,37 @@ Total mark of 5 subjects 395
 Avg mark of 5 subjects 79.0
 Total  percent of 5 subjects 79.0
 --------------------------------------------------------------------------
+EX 1(10)
+import math
+print("Enter the 8 weights")
+m1=int(input("enter the weight 1="))
+m2=int(input("enter the weight 2="))
+m3=int(input("enter the weight 3="))
+m4=int(input("enter the weight 4="))
+m5=int(input("enter the weight 5="))
+m6=int(input("enter the weight 6="))
+m7=int(input("enter the weight 7="))
+m8=int(input("enter the weight 8="))
+total=m1+m2+m3+m4+m5+m6+m7+m8
+avg=total/8
+max=max(m1,m2,m3,m4,m5,m6,m7,m8)
+min=min(m1,m2,m3,m4,m5,m6,m7,m8)
+print("Total weight",total)
+print("Avg weight",avg)
+print("max weight",max)
+print("max weight",min)
+OUTPUT
+Enter the 8 weights
+enter the weight 1=75
+enter the weight 2=86
+enter the weight 3=68
+enter the weight 4=56
+enter the weight 5=97
+enter the weight 5=65
+enter the weight 5=64
+enter the weight 5=86
+Total weight 597
+Avg weight 74.625
+max weight 97
+max weight 56
+------------------------------------------------------------------
