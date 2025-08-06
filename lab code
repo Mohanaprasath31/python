@@ -206,3 +206,18 @@ OUTPUT
 Enter a string:hlo world
 String with spaces replaced by hyphens: hlo-world
 ---------------------------------------------------------------
+2(5)
+def case(input_string,n):
+    if(n==1):
+        result=input_string.upper()
+        return result
+    elif(n==2):
+        result=input_string.lower()
+        return result
+    else:
+        print("Enter correct option")
+
+input_string=input("Enter the string:")
+n=int(input("1. for upper \n2. for lower case\nEnter option:"))
+print(case(input_string,n))
+------------------------------------------------------------------
