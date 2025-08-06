@@ -152,3 +152,14 @@ Avg weight 74.625
 max weight 97
 max weight 56
 ------------------------------------------------------------------
+2(1)
+def count_words(input_string):
+    words = input_string.split()
+    word_count = len(words)
+    return word_count
+input_string = input("Enter a string: ")
+print("Number of words:", count_words(input_string))
+OUTPUT
+Enter a string: nanba en arumai nanbah
+Number of words: 4
+-----------------------------------------------------------------
