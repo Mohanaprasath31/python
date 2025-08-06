@@ -163,3 +163,16 @@ OUTPUT
 Enter a string: nanba en arumai nanbah
 Number of words: 4
 -----------------------------------------------------------------
+2(2)
+def find_longest_word(input_string):
+    words=input_string.split()
+    longest_word=max(words,key=len)
+    return longest_word
+
+input_string=input("Enter a string:")
+longest_word=find_longest_word(input_string)
+print("The longest word is:",longest_word)
+OUTPUT
+Enter a string:vanakam da mapla
+The longest word is: vanakam
+----------------------------------------------------------------
