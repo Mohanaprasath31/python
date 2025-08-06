@@ -176,6 +176,7 @@ OUTPUT
 Enter a string:vanakam da mapla
 The longest word is: vanakam
 ----------------------------------------------------------------
+2(3)
 def count_vowels(input_string):
     vowels="aeiouAEIOU"
     vowel_count=0
@@ -192,4 +193,16 @@ print("Number of vowels:",vowel_count)
 OUTPUT
 Enter a string:hlo sir i am fine
 Number of vowels: 6
+---------------------------------------------------------------
+2(4)
+def replace_space_with_hyphens(input_string):
+    result_string=input_string.replace(" ","-")
+    return result_string
+
+input_string=input("Enter a string:")
+result_string=replace_space_with_hyphens(input_string)
+print("String with spaces replaced by hyphens:",result_string)
+OUTPUT
+Enter a string:hlo world
+String with spaces replaced by hyphens: hlo-world
 ---------------------------------------------------------------
