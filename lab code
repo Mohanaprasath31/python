@@ -238,7 +238,7 @@ OUTPUT
 Enter a string: malayalam
 The string is a palindrome
 --------------------------------------------------------------------
-2(9)
+2(8)
 def concatenate_with_separator(string_list,separator):
     result_string=separator.join(string_list)
     return result_string
