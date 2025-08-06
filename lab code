@@ -176,3 +176,20 @@ OUTPUT
 Enter a string:vanakam da mapla
 The longest word is: vanakam
 ----------------------------------------------------------------
+def count_vowels(input_string):
+    vowels="aeiouAEIOU"
+    vowel_count=0
+
+    for char in input_string:
+        if char in vowels:
+            vowel_count+=1
+
+    return vowel_count
+
+input_string=input("Enter a string:")
+vowel_count=count_vowels(input_string)
+print("Number of vowels:",vowel_count)
+OUTPUT
+Enter a string:hlo sir i am fine
+Number of vowels: 6
+---------------------------------------------------------------
