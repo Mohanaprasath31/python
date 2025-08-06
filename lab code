@@ -250,3 +250,24 @@ print("Concatenated string:",result_string)
 OUTPUT
 Concatenated string: Hello,world,this,is,a,test
 --------------------------------------------------------------
+2(9)
+def delete_character(input_string, char_to_remove):
+    # Remove all occurrences of char_to_remove from input_string
+    result_string = input_string.replace(char_to_remove, "")
+    return result_string
+
+# Example usage
+input_string = input("Enter the string: ")
+char_to_remove = input("Enter the character to remove: ")
+
+# Ensure that char_to_remove is a single character
+if len(char_to_remove) != 1:
+    print("Please enter exactly one character to remove.")
+else:
+    result_string = delete_character(input_string, char_to_remove)
+    print("String after removal:",result_string)
+output
+Enter the string: hi bro
+Enter the character to remove: h
+String after removal: i bro
+-----------------------------------------------------------------
