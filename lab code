@@ -329,3 +329,14 @@ OUTPUT
 Before Interchanging [10, 65, 20, 80, 40, 32, 50]
 After Interchanging [50, 65, 20, 80, 40, 32, 10]
 -------------------------------------------------------------
+3(6)
+set1={1,2,3,4,5}
+set2={4,5,6,7,8}
+union=set1.union(set2)
+intersection=set1.intersection(set2)
+print("union",union)
+print("intersection",intersection)
+OUTPUT
+union {1, 2, 3, 4, 5, 6, 7, 8}
+intersection {4, 5}
+----------------------------------------------------------
