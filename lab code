@@ -292,3 +292,18 @@ OUTPUT
 Converted Tuple (10, 20, 30, 40, 50)
 length of Tuple 5
  ----------------------------------------------------------------
+3(3)
+my_list=[10,20,30,40,50]
+index=2
+element=25
+my_list.insert(index,element)
+print("List after Insertion",my_list)
+to_remove=3
+removed =my_list.pop(to_remove)
+print("Removed element",removed)
+print("List after removal",my_list)
+OUTPUT
+List after Insertion [10, 20, 25, 30, 40, 50]
+Removed element 30
+List after removal [10, 20, 25, 40, 50]
+----------------------------------------------------------------
