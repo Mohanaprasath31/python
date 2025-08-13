@@ -271,3 +271,13 @@ Enter the string: hi bro
 Enter the character to remove: h
 String after removal: i bro
 -----------------------------------------------------------------
+3(1)
+my_tuple=(10,20,30,40,50)
+element =3
+if element in my_tuple:
+    print(f"{element} exists")
+else:    
+    print(f"{element} not exists")
+output
+30 exists
+----------------------------------------------------------------
