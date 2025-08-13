@@ -281,3 +281,14 @@ else:
 output
 30 exists
 ----------------------------------------------------------------
+3(2)
+my_list=[10,20,30,40,50]
+my_tuple=tuple(my_list)
+length=len(my_tuple)
+print("Converted Tuple",my_tuple)
+print("length of Tuple",length)
+OUTPUT
+
+Converted Tuple (10, 20, 30, 40, 50)
+length of Tuple 5
+ ----------------------------------------------------------------
