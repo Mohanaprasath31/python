@@ -378,3 +378,19 @@ df = pd.DataFrame(data)
 print("Data Frame:")
 print(df)
 ---------------------------------------------------------
+4(2)
+import pandas as pd
+df1 = pd.DataFrame({
+'ID':[1,2,3,4,5],
+'name':["rock","bruce","thor","tony","starc"],
+'mark':[18,22,44,11,33]
+})
+df2 = pd.DataFrame({
+'ID':[1,2,3,4,5],
+'mark':[10,23,45,32,50]
+})
+outer_join=pd.merge(df1,df2,on='ID',how='outer')
+print("outer result")
+print(outer_join)
+print("\n")
+--------------------------------------------------------
