@@ -394,3 +394,17 @@ print("outer result")
 print(outer_join)
 print("\n")
 --------------------------------------------------------
+4(3)
+import pandas as pd
+sales = pd.DataFrame({
+'Region':['east','west','north','south'],
+'Sales':[2000,5000,8000,10000]
+})
+regions = pd.DataFrame({
+'Region':['east','west','north','south'],
+'Manager':['Alice','Bob','Stark','Rohith']
+})
+regions.set_index('Region',inplace=True)
+result=sales.join(regions,on='Region')
+print(result)
+----------------------------------------------------------
