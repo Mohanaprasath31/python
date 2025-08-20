@@ -362,3 +362,19 @@ print("Dictionary:",dict)
 OUTPUT
 Dictionary: {'a': 1, 'b': 2, 'c': 3}
 --------------------------------------------------------
+4(1)
+import pandas as pd
+name = ["ram","rahul","akash","arun","ron"]
+score=[15,13,16,12,17]
+attempts=[2,1,2,3,1]
+qualify=['yes','no','yes','no','yes']
+data ={
+       'Name':name,
+       'Score':score,
+       'Attempts':attempts,
+       'Qualify':qualify
+       }
+df = pd.DataFrame(data)
+print("Data Frame:")
+print(df)
+---------------------------------------------------------
