@@ -408,3 +408,22 @@ regions.set_index('Region',inplace=True)
 result=sales.join(regions,on='Region')
 print(result)
 ----------------------------------------------------------
+4(4)
+import pandas as pd
+data1={
+       'name':['ron','hermoini','harry','snape','dubledoor'],
+       'age':[15,15,16,31,50]
+       }
+df1=pd.DataFrame(data1)
+data2={
+       'name':['virat','rohith','dhawan','dhoni','hardik'],
+       'age':[36,38,45,44,29]
+       }
+df2=pd.DataFrame(data2)
+concatenated_df=pd.concat([df1,df2],axis=0)
+print("concatenated_df:")
+print(concatenated_df)
+concatenated_df1=pd.concat([df1,df2],axis=1)
+print("Horizontal concatenated_df 1:")
+print(concatenated_df1)
+--------------------------------------------------------------
