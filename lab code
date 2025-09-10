@@ -492,3 +492,15 @@ arr1d=np.array([10,20,30])
 resultt=arr3d+arr1d
 print("Sum:",resultt)
 ----------------------------------------------------------
+5(5)
+import numpy as np
+arr=np.array([1,2,3,4,5])
+exp=np.exp(arr)
+print("Exp:",exp)
+arr=np.array([1,2.718,7,354,23.455,4.455])
+log=np.log(arr)
+print("Log:",log)
+arr=np.array([1,10,100,1000,10000])
+log10=np.log10(arr)
+print("Log 10:",log10)
+-------------------------------------------------------
