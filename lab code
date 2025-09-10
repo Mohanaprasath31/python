@@ -458,3 +458,22 @@ print("Reshaped 3D Array",reshape3)
 flatten =reshape3.flatten()
 print("Flatten=",flatten)
 -----------------------------------------------------------
+5(3)
+import numpy as np
+matrix1 =np.array([[1,2],[3,4]])
+matrix2 =np.array([[5,6],[7,8]])
+add=matrix1+matrix2
+sub=matrix1-matrix2
+mul=matrix1*matrix2
+prod=np.dot(matrix1,matrix2)
+transpose=np.transpose(matrix1)
+det=np.linalg.det(matrix1)
+print("Sum=",add)
+print("sub=",sub)
+print("mul=",mul)
+print("prod=",prod)
+print("transpose=",transpose)
+print("determinant=",det)
+inv=np.linalg.inv(matrix1)
+print("Inverse=",inv)
+------------------------------------------------------------
