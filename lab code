@@ -538,3 +538,10 @@ print("Arcsinh:",arcsinh)
 arctanh=np.arctanh(values)
 print("Arctanh:",arctanh)
 -------------------------------------------------------
+5(8)
+import numpy as np
+a=np.array([[2,1],[1,3]])
+b=np.array([4,5])
+x=np.linalg.solve(a,b)
+print("Linear soln",x)
+--------------------------------------------------
