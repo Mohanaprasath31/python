@@ -668,3 +668,14 @@ fig=plt.figure(figsize=(10,7))
 plt.pie(data,labels=cars)
 plt.show()
 ---------------------------------------------------------------------------------------
+8(5)
+import matplotlib.pyplot as plt
+import numpy as np
+height=np.random.uniform(150,200,size=50)
+weight=np.random.uniform(150,200,size=50)
+plt.scatter(height,weight)
+plt.xlabel('height')
+plt.ylabel('weight')
+plt.title('height vs weight')
+plt.show()
+---------------------------------------------------------------------------------------
