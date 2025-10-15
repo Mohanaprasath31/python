@@ -648,7 +648,7 @@ plt.xlabel('Countries', fontsize=12)
 plt.ylabel('Population (in millions)', fontsize=12)
 plt.show()
 -------------------------------------------------------------------------------------
-8(3)
+8(4)
 import matplotlib.pyplot as plt
 import numpy as np
 population_age=[22,32,42,43,64,65,23,43,53,12,43,54,34,12,4,33,22,32,42,43,64,65,23,43,53,12,43,54,34,12,4,33]
@@ -659,3 +659,12 @@ plt.ylabel('no of people')
 plt.title('Histogram')
 plt.show()
 ------------------------------------------------------------------------------------
+8(3)
+import matplotlib.pyplot as plt
+import numpy as np
+cars = ['BMW', 'FERRARI', 'LAMBO', 'JAGUAR', 'HONDA','VOLVO']
+data = [331, 1380, 1441, 506, 678,986]
+fig=plt.figure(figsize=(10,7))
+plt.pie(data,labels=cars)
+plt.show()
+---------------------------------------------------------------------------------------
