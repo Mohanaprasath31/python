@@ -636,10 +636,8 @@ plt.grid(True)
 plt.show()
 --------------------------------------------------------------------------------------
 8(2)
-
 import matplotlib.pyplot as plt
 import numpy as np
-
 countries = ['USA', 'India', 'China', 'Brazil', 'Nigeria', 'Russia', 'Japan']
 populations = [331, 1380, 1441, 213, 206, 146, 126]
 colors = plt.cm.viridis(np.linspace(0, 1, len(countries)))
