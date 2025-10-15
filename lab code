@@ -679,3 +679,19 @@ plt.ylabel('weight')
 plt.title('height vs weight')
 plt.show()
 ---------------------------------------------------------------------------------------
+8(6)
+import matplotlib.pyplot as plt
+from mpl_toolkits.mplot3d import Axes3D
+import numpy as np
+fig = plt.figure()
+ax = fig.add_subplot(111, projection='3d')
+x = np.random.rand(100)
+y = np.random.rand(100)
+z = np.random.rand(100)
+ax.scatter(x, y, z)
+ax.set_title('3D Scatter Plot')
+ax.set_xlabel('X Label')
+ax.set_ylabel('Y Label')
+ax.set_zlabel('Z Label')
+plt.show()
+-----------------------------------------------------------------------------------
