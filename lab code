@@ -648,3 +648,14 @@ plt.xlabel('Countries', fontsize=12)
 plt.ylabel('Population (in millions)', fontsize=12)
 plt.show()
 -------------------------------------------------------------------------------------
+8(3)
+import matplotlib.pyplot as plt
+import numpy as np
+population_age=[22,32,42,43,64,65,23,43,53,12,43,54,34,12,4,33,22,32,42,43,64,65,23,43,53,12,43,54,34,12,4,33]
+bins=[0,10,20,30,40,50,60,70]
+plt.hist(population_age,bins,histtype='bar',rwidth=0.8)
+plt.xlabel('age groups')
+plt.ylabel('no of people')
+plt.title('Histogram')
+plt.show()
+------------------------------------------------------------------------------------
